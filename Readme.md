@@ -61,3 +61,18 @@ ReactDOM.render(
 );
 ```
 > React render what should be render to the DOM.
+
+## JSX
+JSX is an extension to the JavaScript language that uses a markup-like syntax to create React elements. Most React developers write their UI using JSX because it resembles writing HTML.
+Let's apply 
+this is the JSX extension to the javascript
+```sh
+const title = <h1>My First React Element!</h1>;
+const desc = <p> I just learned how to create a React node and render it into the DOM. </p>;
+```
+> Note: you need to add the babel-standalone to compile the project index.html
+```sh
+ <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+ <script type="text/babel" src="./app.js"></script>
+```
+the second script that will work via babel-standalone.
